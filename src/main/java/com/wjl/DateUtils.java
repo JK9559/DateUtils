@@ -76,7 +76,7 @@ public class DateUtils {
                             iDay = ULEAD_MONTH_DAYS[index - 1];
                         }
                         calendar.set(iYear, index - 1, iDay);
-                        System.out.println(calendar.getTime());
+                        //System.out.println(calendar.getTime());
                         return DateFormatUtils.format(calendar.getTime(), "yyyyMMdd");
                     }
 
